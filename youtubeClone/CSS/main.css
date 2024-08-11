@@ -27,10 +27,22 @@
 .video-thumbnail-div {
     height: 168px;
     width: 300px;
+    position: relative;
 }
 
 .video-thumbnail {
-    width: 300px;;
+    width: 300px;
+}
+
+.video-timestamp {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
 }
 
 .video-info {
@@ -49,10 +61,10 @@
     margin-top: 10px;
 }
 
-.video-description {
-    /* flex: 1; */
-    /* margin-left: 10px; */
-}
+/* .video-description { */
+/* flex: 1; */
+/* margin-left: 10px; */
+/* } */
 
 .video-title {
     margin-top: 10px;
