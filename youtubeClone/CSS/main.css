@@ -1,0 +1,79 @@
+/* All styles for youtube.com clone */
+
+.main-content {
+    position: absolute;
+    top: 56px;
+    left: 72px;
+    /* height: 100%;
+    width: 100%; */
+}
+
+.video-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.video-card {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 300px;
+}
+
+.video-thumbnail-div {
+    height: 168px;
+    width: 300px;
+}
+
+.video-thumbnail {
+    width: 300px;;
+}
+
+.video-info {
+    display: flex;
+    flex-direction: row;
+    height: 132px;
+}
+
+.profile-picture-div {
+    width: 40px;
+}
+
+.profile-picture {
+    height: 36px;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.video-description {
+    /* flex: 1; */
+    /* margin-left: 10px; */
+}
+
+.video-title {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.channel-name {
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    color: rgb(85, 85, 85);
+    margin-left: 10px;
+}
+
+.video-stats {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    color: rgb(85, 85, 85);
+    margin-left: 10px;
+}

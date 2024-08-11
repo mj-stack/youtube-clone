@@ -1,0 +1,40 @@
+.navbar {
+    padding-top: 5px;
+    width: 72px;
+    position: fixed;
+    top: 57px;
+    left: 0;
+    bottom: 0;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: white;
+    z-index: 200;
+}
+
+.navbar-icons-div {
+    height: 74px;
+    width: 72px;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.navbar-icons-div:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.navbar-icons {
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.nav-info {
+    font-size: 10px;
+}
